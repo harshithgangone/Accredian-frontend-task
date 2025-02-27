@@ -150,7 +150,8 @@ function App() {
           </div>
         </div>
         {/* Overlay for mobile menu */}
-        {menuOpen && <div className="menu-overlay" onClick={closeMenu}></div>}
+        {menuOpen && <div className="menu-overlay open" onClick={closeMenu}></div>}
+
       </header>
       
       {/* Tab Navigation */}
