@@ -3,7 +3,7 @@ import './Refer.css';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_URL =  'https://web-production-2e829.up.railway.app/';
+const API_URL =  'https://web-production-2e829.up.railway.app';
 
 const Refer = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
